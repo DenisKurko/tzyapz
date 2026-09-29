@@ -212,7 +212,7 @@
         <mxCell id="title" parent="1" style="text;html=1;fontStyle=1;fontSize=20;" value="M2 — Переказ коштів" vertex="1">
           <mxGeometry height="40" width="1560" x="30" y="25" as="geometry" />
         </mxCell>
-        <mxCell id="lane0" parent="1" style="swimlane;horizontal=0;startSize=42;collapsible=0;fillColor=#f7f9fc;strokeColor=#667085;fontStyle=1;fontSize=14;whiteSpace=wrap;" value="w" vertex="1">
+        <mxCell id="lane0" parent="1" style="swimlane;horizontal=0;startSize=42;collapsible=0;fillColor=#f7f9fc;strokeColor=#667085;fontStyle=1;fontSize=14;whiteSpace=wrap;" value="Клієнт" vertex="1">
           <mxGeometry height="1985" width="390" x="30" y="90" as="geometry" />
         </mxCell>
         <mxCell id="lane1" parent="1" style="swimlane;horizontal=0;startSize=42;collapsible=0;fillColor=#f7f9fc;strokeColor=#667085;fontStyle=1;fontSize=14;whiteSpace=wrap;" value="ФінКит&#xa;Система" vertex="1">
