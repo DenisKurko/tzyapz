@@ -260,7 +260,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="M2 — Переказ коштів" id="1">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="2165" math="0" shadow="0">
+    <mxGraphModel dx="2828" dy="1514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="2165" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,6 +360,14 @@
               <mxPoint x="320" y="1790" />
             </Array>
             <mxPoint x="480" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpHEf6Jgmrys1eAyqBB4-1" edge="1" parent="lane1" source="n15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="975" />
+              <mxPoint x="460" y="1265" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n15" parent="lane1" style="ellipse;fillColor=#fffaf0;strokeColor=#a06a00;strokeWidth=2;whiteSpace=wrap;html=1;fontSize=12;" value="15. «Списати кошти з рахунку відправника»; на межі - «Помилка платіжного шлюзу» → 21" vertex="1">
@@ -608,7 +616,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="M3 — Оформлення кредиту" id="2">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="1730" math="0" shadow="0">
+    <mxGraphModel dx="2828" dy="1514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1730" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -807,7 +815,7 @@
         <mxCell id="s18" edge="1" parent="lane2" source="n15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;" target="n16" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lane3" parent="1" style="swimlane;horizontal=0;startSize=42;collapsible=0;fillColor=#f7f9fc;strokeColor=#667085;fontStyle=1;fontSize=14;whiteSpace=wrap;" value="—" vertex="1">
+        <mxCell id="lane3" parent="1" style="swimlane;horizontal=0;startSize=42;collapsible=0;fillColor=#f7f9fc;strokeColor=#667085;fontStyle=1;fontSize=14;whiteSpace=wrap;" value="ФінКит" vertex="1">
           <mxGeometry height="1550" width="390" x="1290" y="90" as="geometry" />
         </mxCell>
         <mxCell id="n20" parent="lane3" style="shape=note;fillColor=#fffbd6;strokeColor=#8a6d1d;whiteSpace=wrap;html=1;fontSize=11;" value="20. «Сума 1 000..1 000 000 грн, строк 3..60 місяців, ставка 5..40 % (BL-30)» (до 11)" vertex="1">
@@ -921,7 +929,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="M4 — Оплата рахунку" id="3">
-    <mxGraphModel dx="3535" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1875" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1875" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -962,16 +970,6 @@
         </mxCell>
         <mxCell id="n4" parent="lane0" style="rhombus;fillColor=#fff4d6;strokeColor=#a06a00;whiteSpace=wrap;html=1;fontSize=11;" value="4. «Отримано підтвердження оплати» → 5; «Отримано повідомлення про помилку» → 6" vertex="1">
           <mxGeometry height="80" width="320" x="55" y="500" as="geometry" />
-        </mxCell>
-        <mxCell id="icon_im4a" parent="lane0" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;strokeColor=none;fillColor=none;" value="✉" vertex="1">
-          <mxGeometry height="16" relative="1" width="16" x="0.6" y="0.6" as="geometry">
-            <mxPoint x="20" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="icon_im4b" parent="lane0" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;strokeColor=none;fillColor=none;" value="✉" vertex="1">
-          <mxGeometry height="16" relative="1" width="16" x="0.6" y="0.6" as="geometry">
-            <mxPoint x="20" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="s1" edge="1" parent="lane0" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;" target="n2" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1105,7 +1103,7 @@
         <mxCell id="s17" edge="1" parent="lane2" source="n19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;" target="n20" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lane3" parent="1" style="swimlane;horizontal=0;startSize=42;collapsible=0;fillColor=#f7f9fc;strokeColor=#667085;fontStyle=1;fontSize=14;whiteSpace=wrap;" value="—" vertex="1">
+        <mxCell id="lane3" parent="1" style="swimlane;horizontal=0;startSize=42;collapsible=0;fillColor=#f7f9fc;strokeColor=#667085;fontStyle=1;fontSize=14;whiteSpace=wrap;" value="ФінКит" vertex="1">
           <mxGeometry height="1695" width="390" x="1290" y="90" as="geometry" />
         </mxCell>
         <mxCell id="n21" parent="lane3" style="shape=note;fillColor=#fffbd6;strokeColor=#8a6d1d;whiteSpace=wrap;html=1;fontSize=11;" value="21. «Одержувач платежу у demo не представлений; пул моделює зовнішнього учасника за легендою» (до 18)" vertex="1">
