@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="4">
   <diagram name="M1 — Відкриття рахунку" id="0">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="1585" math="0" shadow="0">
+    <mxGraphModel dx="3002" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1585" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,9 +136,6 @@
         <mxCell id="n14" parent="lane1" style="rhombus;fillColor=#fff4d6;strokeColor=#a06a00;whiteSpace=wrap;html=1;fontSize=11;" value="14. «Коштів достатньо?» - «ні» → 15; «так» → 16" vertex="1">
           <mxGeometry height="80" width="320" x="110" y="703" as="geometry" />
         </mxCell>
-        <mxCell id="n18" parent="lane1" style="ellipse;fillColor=#fdecec;strokeColor=#b42318;strokeWidth=3;whiteSpace=wrap;html=1;fontSize=12;" value="18. «Рахунок відкрито»" vertex="1">
-          <mxGeometry height="80" width="320" x="120" y="1225" as="geometry" />
-        </mxCell>
         <mxCell id="s7" edge="1" parent="lane1" source="n8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;" target="n9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -260,7 +257,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="M2 — Переказ коштів" id="1">
-    <mxGraphModel dx="2828" dy="1514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="2165" math="0" shadow="0">
+    <mxGraphModel dx="3860" dy="2243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="2165" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -616,7 +613,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="M3 — Оформлення кредиту" id="2">
-    <mxGraphModel dx="2828" dy="1514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1730" math="0" shadow="0">
+    <mxGraphModel dx="3002" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1730" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -929,7 +926,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="M4 — Оплата рахунку" id="3">
-    <mxGraphModel dx="1414" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1875" math="0" shadow="0">
+    <mxGraphModel dx="3378" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1875" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
